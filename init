@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -x
+set -e
+
+whoami
+ls -lrt /etc/file
+cat /etc/file
+ps -ef
+/bin/program &
+ps -ef
+wait
+

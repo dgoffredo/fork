@@ -1,0 +1,6 @@
+services:
+  fork:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
